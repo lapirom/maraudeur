@@ -15,12 +15,19 @@ namespace MapsApp
                 MapType = MapType.Hybrid,
             };
 
-            var position1 = new Position(46.0767305, 1.7561168);
-            var position2 = new Position(46.2469143, 1.9691859);
+            var position1 = new Position(46.16959900000001, 1.8714519999999766);
+            var position2 = new Position(46.28254500000001, 2.000344000000041);
             var position3 = new Position(46.2571185, 1.9708194);
             var position4 = new Position(46.7076989, 1.1459506);
-            var position5 = new Position(36.891, 10.185);
-            var position6 = new Position(36.892, 10.187);
+            var position5 = new Position(46.2319694, 1.9766053);
+            var position6 = new Position(46.0592497, 2.2834104);
+            var position7 = new Position(46.0423787, 1.719308);
+            var position8 = new Position(45.8450756, 2.2174647);
+            var position9 = new Position(46.3370774, 2.1912582);
+            var position10 = new Position(46.006615, 1.9169698);
+            var position11 = new Position(45.813619, 1.7736720000000332);
+
+            
 
             var customPin1 = new CustomPin
             {
@@ -77,10 +84,10 @@ namespace MapsApp
                 {
                     Type = PinType.SearchResult,
                     Position = position5,
-                    Label = "Via Mobile",
-                    Address = "Technopark Elgazala, Tunisia"
+                    Label = "Rien",
+                    Address = ""
                 },
-                Url = "www.kromberg-schubert.com"
+                Url = ""
             };
 
             var customPin6 = new CustomPin
@@ -89,10 +96,70 @@ namespace MapsApp
                 {
                     Type = PinType.SearchResult,
                     Position = position6,
-                    Label = "Via Mobile",
-                    Address = "Technopark Elgazala, Tunisia"
+                    Label = "Le vide",
+                    Address = ""
                 },
-                Url = "www.kromberg-schubert.com"
+                Url = ""
+            };
+
+            var customPin7 = new CustomPin
+            {
+                Pin = new Pin
+                {
+                    Type = PinType.SearchResult,
+                    Position = position7,
+                    Label = "Nada",
+                    Address = ""
+                },
+                Url = ""
+            };
+
+            var customPin8 = new CustomPin
+            {
+                Pin = new Pin
+                {
+                    Type = PinType.SearchResult,
+                    Position = position8,
+                    Label = "Niente",
+                    Address = ""
+                },
+                Url = ""
+            };
+
+            var customPin9 = new CustomPin
+            {
+                Pin = new Pin
+                {
+                    Type = PinType.SearchResult,
+                    Position = position9,
+                    Label = "Que pouic",
+                    Address = ""
+                },
+                Url = ""
+            };
+
+            var customPin10 = new CustomPin
+            {
+                Pin = new Pin
+                {
+                    Type = PinType.SearchResult,
+                    Position = position10,
+                    Label = "Le néant",
+                    Address = ""
+                },
+                Url = ""
+            };
+
+            var customPin11 = new CustomPin
+            {
+                Pin = new Pin
+                {
+                    Type = PinType.SearchResult,
+                    Position = position11,
+                    Label = "Peyrat-le-Château",
+                    Address = "Là, c'est plus la Creuse"
+                },
+                Url = ""
             };
 
             customMap.CustomPins = new List<CustomPin>
@@ -103,10 +170,15 @@ namespace MapsApp
                 customPin4,
                 customPin5,
                 customPin6,
+                customPin7,
+                customPin8,
+                customPin9,
+                customPin10,
+                customPin11,
             };
 
             customMap.MoveToRegion(MapSpan.FromCenterAndRadius(
-                        new Position(46.0595947, 1.7117749), Distance.FromMiles(10)));
+                        new Position(46.0595947, 1.7117749), Distance.FromMiles(40)));
 
             Content = customMap;
         }

@@ -10,7 +10,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>MapsApp.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>MapsAppiOS</AssemblyName>
+    <AssemblyName>Maraudeur</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>

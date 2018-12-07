@@ -16,11 +16,11 @@ namespace MapsApp
             };
 
             var position1 = new Position(44.808269, -0.597815);
-            var position2 = new Position(44.8078163, -0.599699);
-            var position3 = new Position(44.8022459, -0.6007585);
-            var position4 = new Position(44.8070398, -0.5981969);
-            var position5 = new Position(44.8095412, -0.592582);
-            var position6 = new Position(44.8070182, -0.5958829);
+            var position2 = new Position(44.8078125, -0.5975103000000672);
+            var position3 = new Position(44.8011696, -0.6099450000000388);
+            var position4 = new Position(44.8097109, -0.591550600000005);
+            var position5 = new Position(44.8101659, -0.5914253999999346);
+            var position6 = new Position(44.8048075, -0.5927613000000065);
 
             var customPin1 = new CustomPin
             {
