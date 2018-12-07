@@ -1,0 +1,1 @@
+Tested on 2 devices with Android 8.1 ONLY !
