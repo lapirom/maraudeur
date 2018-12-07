@@ -15,10 +15,10 @@ namespace MapsApp
                 MapType = MapType.Hybrid,
             };
 
-            var position1 = new Position(44.808269, -0.597815);
-            var position2 = new Position(36.891, 10.181);
-            var position3 = new Position(36.892, 10.182);
-            var position4 = new Position(36.893, 10.183);
+            var position1 = new Position(46.0767305, 1.7561168);
+            var position2 = new Position(46.2469143, 1.9691859);
+            var position3 = new Position(46.2571185, 1.9708194);
+            var position4 = new Position(46.7076989, 1.1459506);
             var position5 = new Position(36.891, 10.185);
             var position6 = new Position(36.892, 10.187);
 
@@ -28,10 +28,10 @@ namespace MapsApp
                 {
                     Type = PinType.Place,
                     Position = position1,
-                    Label = "Parking",
-                    Address = "Parking, CREMI"
+                    Label = "Guéret",
+                    Address = "La seule ville habitée ?"
                 },
-                Url = "www.intilaq.tn",
+                Url = "",
             };
 
 
@@ -41,10 +41,10 @@ namespace MapsApp
                 {
                     Type = PinType.SearchResult,
                     Position = position2,
-                    Label = "Telnet R&D",
-                    Address = "Technopark Elgazala, Tunisia"
+                    Label = "Roches",
+                    Address = "Donc, il y a des cailloux en Creuse..."
                 },
-                Url = "www.groupe-telnet.com"
+                Url = ""
             };
 
             var customPin3 = new CustomPin
@@ -53,10 +53,10 @@ namespace MapsApp
                 {
                     Type = PinType.SearchResult,
                     Position = position3,
-                    Label = "Kromberg&Schubert",
-                    Address = "Technopark Elgazala, Tunisia"
+                    Label = "Une vache parmis d'autres",
+                    Address = "Eh oui, il y a bien plus de vaches que d'habitants en Creuse."
                 },
-                Url = "www.kromberg-schubert.com"
+                Url = ""
             };
 
             var customPin4 = new CustomPin
@@ -65,10 +65,10 @@ namespace MapsApp
                 {
                     Type = PinType.SearchResult,
                     Position = position4,
-                    Label = "Via Mobile",
-                    Address = "Technopark Elgazala, Tunisia"
+                    Label = "Chez Michel",
+                    Address = "Il parrait qu'il a du Wifi !"
                 },
-                Url = "www.kromberg-schubert.com"
+                Url = ""
             };
 
             var customPin5 = new CustomPin
@@ -106,7 +106,7 @@ namespace MapsApp
             };
 
             customMap.MoveToRegion(MapSpan.FromCenterAndRadius(
-                        new Position(46.0595947, 1.7117749), Distance.FromMiles(0.5)));
+                        new Position(46.0595947, 1.7117749), Distance.FromMiles(10)));
 
             Content = customMap;
         }

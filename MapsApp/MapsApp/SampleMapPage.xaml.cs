@@ -16,11 +16,11 @@ namespace MapsApp
             };
 
             var position1 = new Position(44.808269, -0.597815);
-            var position2 = new Position(36.891, 10.181);
-            var position3 = new Position(36.892, 10.182);
-            var position4 = new Position(36.893, 10.183);
-            var position5 = new Position(36.891, 10.185);
-            var position6 = new Position(36.892, 10.187);
+            var position2 = new Position(44.8078163, -0.599699);
+            var position3 = new Position(44.8022459, -0.6007585);
+            var position4 = new Position(44.8070398, -0.5981969);
+            var position5 = new Position(44.8095412, -0.592582);
+            var position6 = new Position(44.8070182, -0.5958829);
 
             var customPin1 = new CustomPin
             {
@@ -28,10 +28,10 @@ namespace MapsApp
                 {
                     Type = PinType.Place,
                     Position = position1,
-                    Label = "Parking",
-                    Address = "Parking, CREMI"
+                    Label = "Parking, CREMI",
+                    Address = "Si vous avez perdu votre voiture... pour vous enfuire !"
                 },
-                Url = "www.intilaq.tn",
+                Url = "",
             };
 
 
@@ -41,10 +41,10 @@ namespace MapsApp
                 {
                     Type = PinType.SearchResult,
                     Position = position2,
-                    Label = "Telnet R&D",
-                    Address = "Technopark Elgazala, Tunisia"
+                    Label = "Sys Admin (2ème étage)",
+                    Address = "Un Blue Screen ?"
                 },
-                Url = "www.groupe-telnet.com"
+                Url = ""
             };
 
             var customPin3 = new CustomPin
@@ -53,10 +53,10 @@ namespace MapsApp
                 {
                     Type = PinType.SearchResult,
                     Position = position3,
-                    Label = "Kromberg&Schubert",
-                    Address = "Technopark Elgazala, Tunisia"
+                    Label = "Espace santé étudiants",
+                    Address = "Une tendinite à l'index droit ?"
                 },
-                Url = "www.kromberg-schubert.com"
+                Url = ""
             };
 
             var customPin4 = new CustomPin
@@ -65,10 +65,10 @@ namespace MapsApp
                 {
                     Type = PinType.SearchResult,
                     Position = position4,
-                    Label = "Via Mobile",
-                    Address = "Technopark Elgazala, Tunisia"
+                    Label = "Kebab le plus proche",
+                    Address = "Le manger pas cher le plus proche."
                 },
-                Url = "www.kromberg-schubert.com"
+                Url = ""
             };
 
             var customPin5 = new CustomPin
@@ -77,10 +77,10 @@ namespace MapsApp
                 {
                     Type = PinType.SearchResult,
                     Position = position5,
-                    Label = "Via Mobile",
-                    Address = "Technopark Elgazala, Tunisia"
+                    Label = "2ème Kebab le plus proche",
+                    Address = "2 vaut mieux qu'un"
                 },
-                Url = "www.kromberg-schubert.com"
+                Url = ""
             };
 
             var customPin6 = new CustomPin
@@ -89,10 +89,10 @@ namespace MapsApp
                 {
                     Type = PinType.SearchResult,
                     Position = position6,
-                    Label = "Via Mobile",
-                    Address = "Technopark Elgazala, Tunisia"
+                    Label = "Le Jardin des Fleurs",
+                    Address = "Qui a dit que les informaticiens n'aimaient pas les fleurs ?!"
                 },
-                Url = "www.kromberg-schubert.com"
+                Url = ""
             };
 
             map.CustomPins = new List<CustomPin>
